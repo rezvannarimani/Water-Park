@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    border: solid rgb(5, 28, 91);
+    margin: 0.2rem;
+    position: sticky;
+    justify-content: space-evenly;
+}
+
+.WP {
+    border-radius: 8px;
+    border: solid rgb(5, 28, 91);
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.Description {
+    border-radius: 8px;
+    border: solid rgb(5, 28, 91);
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+}
+
+body {
+    background-color: rgb(165, 206, 218);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('');
+}
+
+.car-2 {
+    background-image: url('');
+}
+
+.car-3 {
+    background-image: url('');
+}
+
+.card a {
+    background-color: rgb(5, 28, 91);
+    color: rgb(165, 206, 218);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease;
+}
