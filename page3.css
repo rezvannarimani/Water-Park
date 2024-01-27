@@ -6,8 +6,8 @@
 
 nav {
     background-color: rgb(5, 28, 91);
-    display: flex;
     top: 0;
+    display: flex;
     border: solid rgb(5, 28, 91);
     margin: 0.2rem;
     position: sticky;
@@ -16,21 +16,6 @@ nav {
 
 a {
     color: aliceblue;
-}
-
-.WP {
-    border-radius: 8px;
-    border: solid rgb(5, 28, 91);
-    margin: 3rem;
-    padding: 2rem;
-}
-
-.Description {
-    border-radius: 8px;
-    border: solid rgb(5, 28, 91);
-    width: 150px;
-    height: 200px;
-    margin: 50px;
 }
 
 body {
@@ -82,4 +67,21 @@ body {
     cursor: pointer;
     transform: scale(1.03);
     transition: all ls ease;
+}
+
+.WP {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: solid rgb(5, 28, 91);
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.para {
+    padding-left: 5px;
+    margin: 20px;
+    line-height: 30px;
+    border-left: 3px solid black;
 }
